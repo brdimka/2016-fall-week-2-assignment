@@ -3,9 +3,57 @@ html,body,h1,h2,h3,h4,p,a,ul,li,div{
     margin:0;
     padding:0;
 }
-
 /* Global styles */
 body{
     font-size:16px;
     font-family:Helvetica,Arial,sans-serif;
+    padding-top:10px;
+    padding-bottom:15px;
+    }
+
+.content{
+  color:blue;
+  width:66%;
+  position: relative;
+  }
+  #lead{
+    width:98%;
+    padding-left:1%;
+    padding-right:1%;
+    position: relative;
+
+  }
+  #lead h2{
+    font-size: 1.8em;
+  }
+  .article{
+    width:48%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+  }
+    .article h2{
+      font-size:1.2em;
+    }
+  .content p{
+    font-family:Georgia;
+      border-bottom: 1px solid blue;
+  }
+  .sidebar{
+    color:red;
+    width:33%;
+    position: relative;
+  }
+  .sidebar p{
+    font-family:Georgia;
+    border-bottom: 1px solid red;
+  }
+
+
+header{
+  padding-bottom:20px;
+  padding-top:20px;
+  border-bottom: 5px solid black;
+  text-transform:uppercase;
+  font-weight:bolder;
 }
